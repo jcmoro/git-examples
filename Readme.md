@@ -13,4 +13,11 @@ git tag
 git tag "v1.0.0"
 
 git revert id-commit
+
+git branch -a
+```
+
+Crear un alias en git
+```
+Añadir alias de git en .gitconfig
 ```
