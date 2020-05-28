@@ -56,3 +56,23 @@ git pull --rebase --autostash
 
 ```
 
+reset ultimo commit
+```
+git revert @
+```
+
+eliminar ultimo commit
+```
+git reset HEAD~1 --mixed
+```
+
+discard changes
+```
+git add -A && git reset --hard
+```
+
+Modificar un fichero del ultimo commit sin añadir un nuevo commit
+```
+git add --all && git commit --amend --no-edit
+
+```
