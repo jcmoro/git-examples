@@ -76,3 +76,15 @@ Modificar un fichero del ultimo commit sin añadir un nuevo commit
 git add --all && git commit --amend --no-edit
 
 ```
+
+Busqueda de commits por texto
+```
+git log -i grep {string}
+```
+
+Mostrar cambios de un fichero 
+```
+git blame {fichero}
+```
+
+
