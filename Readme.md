@@ -87,4 +87,12 @@ Mostrar cambios de un fichero
 git blame {fichero}
 ```
 
+Localizar bug con git bisect
+```
+git bisect start commit_ini commit_fin
+git bisect good
+git bisect bad
+git bisect reset
+git bisect run ""
 
+```
